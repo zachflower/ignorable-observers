@@ -1,5 +1,7 @@
 # Ignorable Observers
 
+[![Code Climate](https://codeclimate.com/github/zachflower/ignorable-observers/badges/gpa.svg)](https://codeclimate.com/github/zachflower/ignorable-observers)
+
 Dynamically disable/enable Laravel's Eloquent model observers. This library provides the ability to temporarily disable observable events for Eloquent models. For example, temporarily disable observers that kick off emails, push notifications, or queued calculations when performing a large number of database inserts or updates.
 
 ## Installation
