@@ -27,7 +27,7 @@ class ExampleModel extends Model {
 }
 ```
 
-Then, simply call the `ignoreObservableEvents()` static method to ignore all observers for that model:
+Then, call the `ignoreObservableEvents()` static method to ignore all observers for that model:
 
 ```php
 ExampleModel::ignoreObservableEvents();
