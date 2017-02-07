@@ -1,4 +1,4 @@
-<?php namespace Zachflower\IgnorableObservers;
+<?php namespace IgnorableObservers;
 
 trait IgnorableObservers {
 
@@ -51,6 +51,8 @@ trait IgnorableObservers {
    * @param  array $observables Events
    */
   static public function unignoreObservableEvents($observables = []) {
+    $observables = is_array($observables) ? $observables : func_get_args();
+
     if ( empty($observables) ) {
       self::$_ignored_observables = [];
     } else {

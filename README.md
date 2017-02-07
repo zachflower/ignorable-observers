@@ -18,7 +18,7 @@ To give an Eloquent model the ability to temporarily ignore observers, simply ad
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Zachflower\IgnorableObservers;
+use IgnorableObservers\IgnorableObservers;
 
 class ExampleModel extends Model {
   use IgnorableObservers;
