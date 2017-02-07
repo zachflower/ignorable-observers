@@ -1,6 +1,7 @@
 {
     "name": "zachflower/ignorable-observers",
     "description": "Dynamically disable/enable Laravel's Eloquent model observers",
+    "keywords": ["eloquent", "laravel", "library"],
     "type": "library",
     "license": "MIT",
     "authors": [
